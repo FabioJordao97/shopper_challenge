@@ -1,6 +1,7 @@
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import HomePage from '../screens/homePage'
 import CartPage from '../screens/cartPage'
+import CheckoutPage from '../screens/checkoutPage'
 
 const Router = () => {
     return (
@@ -14,6 +15,9 @@ const Router = () => {
                     <CartPage />
                 </Route>
 
+                <Route exact path='/checkout'>
+                    <CheckoutPage />
+                </Route>
                 <Route>
                     <div>
                         Página não encontrada

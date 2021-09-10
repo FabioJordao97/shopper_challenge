@@ -11,11 +11,11 @@ const ProductsCard = (props) => {
             if(productId === product.id){
                 return{
                     ...product, quantity: product.quantity + 1
-                }
+                }            
             }
                 return product
           })
-            setCart(inCart)
+            setCart(newCart)
         } else {
             const addingToCart = products[0].find(product => product.id === productId)
             const newProduct = [...cart, {...addingToCart, quantity: 1}]

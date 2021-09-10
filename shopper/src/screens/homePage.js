@@ -1,16 +1,18 @@
 import React, { useContext } from 'react'
 import { useHistory } from 'react-router'
+import Header from '../components/header'
 import ProductsCard from '../components/productsCard'
 import GlobalStateContext from '../globalState/globalStateContext'
 import { goToCart } from '../router/coordinatior'
 
 const HomePage = () => {
-    const {products, cart, setCart} = useContext(GlobalStateContext)
+    const {products, cart} = useContext(GlobalStateContext)
     const history = useHistory()
 
         console.log(cart)
     return( 
         <div>
+            <Header />
             <button onClick={() => goToCart(history)}>Cart</button>
           {products[0].map((product) => {
     return (
