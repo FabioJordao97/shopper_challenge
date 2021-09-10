@@ -1,4 +1,4 @@
-import {BrowserRouter, Switch} from 'react-router-dom'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import HomePage from '../screens/homePage'
 import CartPage from '../screens/cartPage'
 

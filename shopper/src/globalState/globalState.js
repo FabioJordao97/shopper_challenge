@@ -6,6 +6,8 @@ const GlobalState = (props) => {
     const products = useState(productsJSON)
     const [cart, setCart] = useState([])
 
+    console.log(products)
+
     const data = { products, cart, setCart }
 
     return <GlobalStateContext.Provider value={data}>{props.children}</GlobalStateContext.Provider>

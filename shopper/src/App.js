@@ -1,10 +1,10 @@
 import GlobalState from './globalState/globalState';
-import { Route } from 'react-router';
+import Router from '../src/router/router'
 
 function App() {
   return (
    <GlobalState>
-     <Route />
+    <Router />
    </GlobalState>
   );
 }
