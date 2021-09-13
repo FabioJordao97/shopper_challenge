@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import GlobalStateContext from '../globalState/globalStateContext'
 
 const CheckoutCard = (props) => {
+
+    const {name, date} = useContext(GlobalStateContext)
     return (
         <div>
             <p>{props.name}</p>

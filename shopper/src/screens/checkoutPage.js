@@ -4,11 +4,14 @@ import GlobalStateContext from '../globalState/globalStateContext'
 
 const CheckoutPage = () => {
 
-    const { checkout, totalPrice, totalItems } = useContext(GlobalStateContext)
+    const { checkout, totalPrice, totalItems, name, date } = useContext(GlobalStateContext)
 
+    const formatDate = new Date(date).toLocaleDateString('pt-br');
    
     return (
         <div>
+            <p>{name}</p>
+            <p>{formatDate}</p>
             {checkout.map((product) => {
                 return (
                 <CheckoutCard
