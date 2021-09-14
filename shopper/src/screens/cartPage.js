@@ -3,9 +3,15 @@ import CartCard from '../components/cartCard'
 import GlobalStateContext from '../globalState/globalStateContext'
 import { goToCheckout } from '../router/coordinatior'
 import { useHistory } from 'react-router'
+import Header from '../components/header'
+import Footer from '../components/footer'
+import { CartFooterDiv, EmptyCart } from '../styles/footerStyles'
+import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
+import { CartButton, CartFull, CartInput, CartTotal, DeleteDiv, Form } from '../styles/cartStyles'
+import { CartDiv } from '../styles/cartStyles'
 
 const CartPage = () => {
-  const { products, name, setName, date, setDate, cart, setCart, checkout, setCheckout, totalPrice, setTotalPrice, totalItems, setTotalItems } = useContext(GlobalStateContext)
+  const { name, setName, date, setDate, cart, setCart, checkout, setCheckout, totalPrice, setTotalPrice, totalItems, setTotalItems, setCounter } = useContext(GlobalStateContext)
   let todayDate = new Date().toISOString().slice(0, 10)
   const history = useHistory()
 
@@ -31,14 +37,6 @@ const CartPage = () => {
     cartTotal()
   }, [cart, totalItems, totalPrice, setTotalPrice, setTotalItems])
 
-  // products: state.products.map(product => product.id === payload.id ? {...product, qty_stock: product.qty_stock - 1} : product)
-
-  const checkout1 = (productID) => {
-    products.map(product => product.id === productID ? { ...product, qty_stock: product.qty_stock - product.quantity } : product)
-
-    goToCheckout(history)
-  }
-
   const onChangeName = (event) => {
     setName(event.target.value)
   }
@@ -47,61 +45,82 @@ const CartPage = () => {
     setDate(event.target.value)
   }
 
-  const checkOut2 = () => {
-    if (name.length === 0) {
+  const finishPurchase = () => {
+    if (name === '') {
       window.alert('Preencha os valores requisitados')
-    } else if (date.length === 0) {
+    } else if (date === '') {
       window.alert('Preencha os valores requisitados')
     } else {
       setCheckout(cart)
       goToCheckout(history)
       console.log(checkout)
+      setCounter(0)
     }
 
   }
-  console.log(todayDate)
-  console.log(name)
-  console.log(date)
-
 
   return (
-    <div>
-      <button onClick={() => clearCart()}>Clear Cart</button>
-      <form onSubmit={checkOut2}>
-        <input
-          placeholder="Qual o seu nome?"
-          type="name"
-          required
-          name="name"
-          value={name}
-          onChange={onChangeName}
-        />
+    <CartFull>
+      <Header />
+      <DeleteDiv>
+        <span onClick={() => clearCart()}>Limpar</span>
+        <DeleteForeverIcon onClick={() => clearCart()}></DeleteForeverIcon>
+      </DeleteDiv>
 
-        <input
-          placeholder="Coloque a data de entrega"
-          type="date"
-          required
-          name="date"
-          min={todayDate}
-          value={date}
-          onChange={onChangeDate}
-        />
-      </form>
-      {cart.map((product) => {
-        return (
-          <CartCard
-            id={product.id}
-            name={product.name}
-            price={product.price}
-            stock={product.qty_stock}
-            quantity={product.quantity}
-          />
-        )
-      })}
-      <p>Total: {totalPrice}</p>
-      <p>Quantidade: {totalItems}</p>
-      <button onClick={() => checkOut2()}>Ir para o Checkout</button>
-    </div>
+      {cart.length === 0 ?
+
+        <EmptyCart>Carrinho vazio</EmptyCart>
+
+        :
+        <CartDiv>
+          <h2>Preencha seus dados para finalizar suas compras!</h2>
+          <Form>
+            <CartInput
+              placeholder="Qual o seu nome?"
+              type="name"
+              required
+              name="name"
+              value={name}
+              onChange={onChangeName}
+            />
+
+            <CartInput
+              placeholder="Coloque a data de entrega"
+              type="date"
+              required
+              name="date"
+              min={todayDate}
+              value={date}
+              onChange={onChangeDate}
+            />
+          </Form>
+
+          <div>
+          {cart.map((product) => {
+            return (
+              <CartCard
+                id={product.id}
+                name={product.name}
+                price={product.price}
+                stock={product.qty_stock}
+                quantity={product.quantity}
+              />
+            )
+          })}
+          </div>
+          <CartTotal>
+          <p>Valor Total: R${totalPrice}</p>
+          <p>Quantidade total: {totalItems}</p>
+          <CartButton onClick={() => finishPurchase()}>Finalizar compra</CartButton>
+          </CartTotal>
+        </CartDiv>
+      }
+      <CartFooterDiv>
+        <Footer />
+      </CartFooterDiv>
+
+    </CartFull>
+
   )
 }
 

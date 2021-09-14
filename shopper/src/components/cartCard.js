@@ -1,5 +1,8 @@
 import React, {  useContext } from 'react'
 import GlobalStateContext from '../globalState/globalStateContext'
+import AddIcon from '@material-ui/icons/Add';
+import RemoveIcon from '@material-ui/icons/Remove';
+import { AdjustQuantityDiv, CartPrice, ProductCart } from '../styles/cartStyles';
 
 const CartCard = (props) => {
     const {products, cart, setCart} = useContext(GlobalStateContext)
@@ -39,14 +42,14 @@ const CartCard = (props) => {
     }
     
     return (
-        <div>
-            <p>{props.name}</p>
-            <p>R${props.price}</p>
-            <p>Estoque: {props.stock}</p>   
-            <p>Quantidade: {props.quantity}</p>
-            <button onClick={() => increaseQuantity(props.id)}>Adicionar mais um</button>
-            <button onClick={() => decreaseQuantity(props.id)}>Remove</button>    
-        </div>
+        <ProductCart>
+            <p>{props.quantity}x - {props.name}</p>
+            <AdjustQuantityDiv>
+            <AddIcon color='primary' onClick={() => increaseQuantity(props.id)}></AddIcon>            
+            <RemoveIcon color='secondary' onClick={() => decreaseQuantity(props.id)}></RemoveIcon>             
+            </AdjustQuantityDiv>            
+            <CartPrice>R${props.price}</CartPrice>
+        </ProductCart>
         
     )
 }

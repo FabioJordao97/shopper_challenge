@@ -1,31 +1,37 @@
 import React, { useContext } from 'react'
-import { useHistory } from 'react-router'
+import Footer from '../components/footer'
 import Header from '../components/header'
 import ProductsCard from '../components/productsCard'
 import GlobalStateContext from '../globalState/globalStateContext'
-import { goToCart } from '../router/coordinatior'
+import { GridContainer, TitleDiv, TitleGreen } from '../styles/homePageStyles'
+
 
 const HomePage = () => {
-    const {products, cart} = useContext(GlobalStateContext)
-    const history = useHistory()
+  const { products } = useContext(GlobalStateContext)
 
-        console.log(cart)
-    return( 
-        <div>
-            <Header />
-            <button onClick={() => goToCart(history)}>Cart</button>
-          {products[0].map((product) => {
-    return (
-      <ProductsCard
-        id={product.id}
-        name={product.name}
-        price={product.price}
-        stock={product.qty_stock}
-      />
-    )
-  })}
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <TitleDiv>
+      <h2>Compras inteligente, </h2>
+      <TitleGreen>vida inteligente.</TitleGreen>
+      </TitleDiv>      
+      <GridContainer>        
+      {products[0].map((product) => {
+        return (
+          <ProductsCard
+            id={product.id}
+            name={product.name}
+            price={product.price}
+            stock={product.qty_stock}
+            photo={product.photo}
+          />
+        )
+      })}
+     </GridContainer>
+     <Footer />
+    </div>
+  )
 }
 
 export default HomePage

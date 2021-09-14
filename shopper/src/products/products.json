@@ -2,300 +2,350 @@
   {
     "id": 16,
     "name": "AZEITE  PORTUGUÊS EXTRA VIRGEM GALLO 500ML",
+    "photo": "https://static.clubeextra.com.br/img/uploads/1/219/668219.png",
     "price": 20.49,
     "qty_stock": 158
   },
   {
     "id": 18,
     "name": "BEBIDA ENERGÉTICA VIBE 2L",
+    "photo": "https://api.tendaatacado.com.br/fotos/966095-1.jpg",
     "price": 8.99,
     "qty_stock": 659
   },
   {
     "id": 19,
     "name": "ENERGÉTICO RED BULL ENERGY DRINK 250ML",
+    "photo": "https://www.drogariaminasbrasil.com.br/media/catalog/product/1/0/10630.jpg",
     "price": 7.29,
     "qty_stock": 909
   },
   {
     "id": 20,
     "name": "ENERGÉTICO RED BULL ENERGY DRINK 355ML",
+    "photo": "https://static.paodeacucar.com/img/uploads/1/55/11884055.jpg",
     "price": 10.79,
     "qty_stock": 159
   },
   {
     "id": 22,
     "name": "ENERGÉTICO RED BULL ENERGY DRINK SEM AÇÚCAR 250ML",
+    "photo": "https://static.paodeacucar.com/img/uploads/1/877/664877.png",
     "price": 7.49,
     "qty_stock": 659
   },
   {
     "id": 23,
     "name": "ÁGUA MINERAL BONAFONT SEM GÁS 1,5L",
+    "photo": "https://www.garotoexpress.com.br/web/image/product.template/1797/image_1024?unique=f12b75e",
     "price": 2.39,
     "qty_stock": 909
   },
   {
     "id": 24,
     "name": "FILME DE PVC WYDA 28CMX15M",
+    "photo": "https://cd.shoppub.com.br/casaevida/media/cache/7e/c7/7ec7ed39ef7ae4d7717be961bb285bb6.jpg",
     "price": 3.99,
     "qty_stock": 160
   },
   {
     "id": 25,
     "name": "FILME DE PVC PRATSY 15M",
+    "photo": "https://www.fastlimpo.com.br/image/cache/catalog/Filme%20de%20PVC%20Pratsy%20c15m-500x500.jpg",
     "price": 4.39,
     "qty_stock": 410
   },
   {
     "id": 26,
     "name": "ROLO DE PAPEL ALUMÍNIO WYDA 30CMX7,5M",
+    "photo": "https://www.emporiodasfrutasam.com.br/data/produto/l/1451-1746.jpg",
     "price": 5.79,
     "qty_stock": 660
   },
   {
     "id": 27,
     "name": "ÁGUA MINERAL SEM GÁS MINALBA 1,5L",
+    "photo": "https://i2.wp.com/www.cybermercado.com.br/wp-content/uploads/2018/11/9333525512222.jpg?fit=1200%2C1200&ssl=1",
     "price": 2.29,
     "qty_stock": 910
   },
   {
     "id": 28,
     "name": "GUARDANAPO GRAND HOTEL SCOTT 24X24CM C/ 50UN",
+    "photo": "https://supernossoemcasa.vteximg.com.br/arquivos/ids/192168-1000-1000/GUARD-PAP-GRAND-HOTEL-50UN-24X24-COQ.jpg?v=637002471038730000",
     "price": 4.39,
     "qty_stock": 160
   },
   {
     "id": 29,
     "name": "GUARDANAPO DIA A DIA SCOTT 24X22CM C/ 50UN",
+    "photo": "https://www.confianca.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/2/0/20758-6.jpg.jpg",
     "price": 2.59,
     "qty_stock": 411
   },
   {
     "id": 33,
     "name": "GUARDANAPO FOLHA DUPLA SNOB 23,5X23,5CM C/ 50UN",
+    "photo": "https://cdn.awsli.com.br/600x450/446/446822/produto/35280148/0a62267354.jpg",
     "price": 4.25,
     "qty_stock": 411
   },
   {
     "id": 34,
     "name": "GUARDANAPO FOLHA SIMPLES SNOB 24X22CM C/ 50UN",
+    "photo": "https://www.madrid.com.br/imagens/produtos/big/27115.jpg",
     "price": 2.19,
     "qty_stock": 661
   },
   {
     "id": 35,
     "name": "PAPEL TOALHA SNOB C/ 2UN",
+    "photo": "https://a-static.mlcdn.com.br/1500x1500/papel-toalha-branco-cozinha-c-2-un-snob/tebelprodutos/x00134/1c1280d56f98fd77c3229e5b7c214fd4.jpg",
     "price": 5.39,
     "qty_stock": 912
   },
   {
     "id": 36,
     "name": "TOALHA DE PAPEL SCOTT DURAMAX C/ 1UN",
+    "photo": "https://cdn.awsli.com.br/600x450/460/460481/produto/5304589234352718a3.jpg",
     "price": 11.29,
     "qty_stock": 162
   },
   {
     "id": 40,
     "name": "PRATO DESCARTÁVEL COPOBRAS 18CM",
+    "photo": "https://a-static.mlcdn.com.br/618x463/prato-descartavel-raso-branco-copobras-18cm-10un/copiapontopapelariaeutilidades/52cc5374889011ea98594201ac18501e/4b8cd38897c241575043aa05421ce000.jpg",
     "price": 1.99,
     "qty_stock": 163
   },
   {
     "id": 41,
     "name": "PRATO DESCARTÁVEL COPOBRAS 15CM",
+    "photo": "https://www.cristallimp.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/r/prato_descart_vel_150mm_-_copobras_1.jpg",
     "price": 2.09,
     "qty_stock": 413
   },
   {
     "id": 43,
     "name": "PRATO DESCARTÁVEL COPOBRAS 21CM",
+    "photo": "https://apoioentrega.vteximg.com.br/arquivos/ids/431305-1000-1000/90404.jpg?v=636619485059530000",
     "price": 3.79,
     "qty_stock": 913
   },
   {
     "id": 45,
     "name": "COLHER DESCARTÁVEL MASTER PRAFESTA BRANCA C/ 50UN",
+    "photo": "https://a-static.mlcdn.com.br/574x431/colher-ref-prem-branca-c-50-prafesta/funchalfestas/1602467/ba520bc26ddca21c66972348aef624d2.jpg",
     "price": 5.99,
     "qty_stock": 413
   },
   {
     "id": 47,
     "name": "GARFO DESCARTÁEL MASTER PRAFESTA CRYSTAL C/ 50UN",
+    "photo": "https://cdn.awsli.com.br/1000x1000/582/582816/produto/31150765/036a5ce36b.jpg",
     "price": 7.49,
     "qty_stock": 914
   },
   {
     "id": 48,
     "name": "FACA DESCARTÁVEL MASTER PRAFESTA CRYSTAL C/ 50UN",
+    "photo": "https://cdn.awsli.com.br/1000x1000/582/582816/produto/29143706/a9ec9da25f.jpg",
     "price": 8.99,
     "qty_stock": 164
   },
   {
     "id": 51,
     "name": "SACO PARA LIXO DOVER ROLL SUPER FORTE AZUL 50L C/ 30UN",
-    "price": 42.9,
+    "photo": "https://images-americanas.b2w.io/produtos/01/00/oferta/50566/6/50566635_1SZ.jpg",
+    "price": 42.90,
     "qty_stock": 915
   },
   {
     "id": 53,
     "name": "PANO PARA LIMPEZA PERFEX C/ 5UN",
+    "photo": "https://images-vilanova.ifcshop.com.br/produto/291_0_20190806124519.jpg",
     "price": 6.99,
     "qty_stock": 415
   },
   {
     "id": 54,
     "name": "PANO PARA LIMPEZA ALKLIN C/ 5UN",
+    "photo": "https://images-vilanova.ifcshop.com.br/produto/5603_0_20200626171949.jpg",
     "price": 4.79,
     "qty_stock": 665
   },
   {
     "id": 55,
     "name": "VELA SANTA CRUZ BRANCA C/8 25G",
+    "photo": "http://img.sitemercado.com.br/produtos/a10be33ababfa3b51d1aa77059161ed1bea1decf9950730273d964d850b03792_full.jpg",
     "price": 5.89,
     "qty_stock": 915
   },
   {
     "id": 57,
     "name": "VELA SANTA CRUZ C/8 30G",
+    "photo": "http://img.sitemercado.com.br/produtos/b9c70c255a9e8a7ae41ac232b653ae229162125b19902b173b071c8479221836_full.jpg",
     "price": 6.89,
     "qty_stock": 416
   },
   {
     "id": 58,
     "name": "BEBIDA DE SOJA SOYOS SÚFRESH LARANJA E CENOURA 1L",
+    "photo": "http://img.sitemercado.com.br/produtos/8f5154feb087e5a27774b79d725a1cf6decd6b3ba33dc18a1f1109ee17ed412d_full.jpg",
     "price": 4.99,
     "qty_stock": 666
   },
   {
     "id": 59,
     "name": "BEBIDA A BASE DE SOJA ADES LARANJA 1L",
+    "photo": "https://static.clubeextra.com.br/img/uploads/1/438/677438.jpg",
     "price": 5.39,
     "qty_stock": 916
   },
   {
     "id": 60,
     "name": "BEBIDA A BASE DE SOJA ADES MAÇÃ 1L",
+    "photo": "https://treslagoas.saofranciscoonline.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/b/e/bebida-soja-ades-maca-1l-7894900087062.jpg",
     "price": 5.59,
     "qty_stock": 166
   },
   {
     "id": 61,
     "name": "BEBIDA A BASE DE SOJA ADES MAÇÃ ZERO 1L",
+    "photo": "https://mercadodatia.com.br/wp-content/uploads/2021/03/suco_Ades.jpg",
     "price": 7.39,
     "qty_stock": 416
   },
   {
     "id": 62,
     "name": "BEBIDA A BASE DE SOJA ADES LARANJA ZERO 1L",
+    "photo": "https://www.mambo.com.br/ccstore/v1/images/?source=/file/v1109703535484077038/products/136153.jpg&height=300&width=300",
     "price": 7.39,
     "qty_stock": 667
   },
   {
     "id": 65,
     "name": "CREME DE TRATAMENTO ELSEVE ULTRA LISO 300G",
+    "photo": "https://m.media-amazon.com/images/I/51TLRTF86uL._AC_SY355_.jpg",
     "price": 16.99,
     "qty_stock": 417
   },
   {
     "id": 66,
     "name": "CREME DE TRATAMENTO ELSEVE OLEO EXTRAORDINÁRIO 300G",
+    "photo": "https://m.media-amazon.com/images/I/71n0scQqnsL._AC_SX466_.jpg",
     "price": 18.99,
     "qty_stock": 667
   },
   {
     "id": 74,
     "name": "DESODORANTE ROLL ON DOVE ORIGINAL 50ML",
+    "photo": "https://drogariasp.vteximg.com.br/arquivos/ids/463561-1000-1000/22578---desodorante-roll-on-dove-feminino-original-50ml-1.jpg?v=637594738097570000",
     "price": 10.49,
     "qty_stock": 669
   },
   {
     "id": 75,
     "name": "DESODORANTE ROLL ON DOVE SENSITIVE SEM PERFUME 50ML",
+    "photo": "https://drogariaspacheco.vteximg.com.br/arquivos/ids/201430-1000-1000/78925342.JPG.jpg?v=635779966186630000",
     "price": 10.74,
     "qty_stock": 919
   },
   {
     "id": 76,
     "name": "DESODORANTE AEROSOL DOVE BEAUTY 150ML",
+    "photo": "https://mundodocabeleireiro.vteximg.com.br/arquivos/ids/3554167-1000-1000/830038-1.jpg?v=637438196753930000",
     "price": 14.99,
     "qty_stock": 169
   },
   {
     "id": 77,
     "name": "DESODORANTE AEROSOL DOVE PURE 100G",
+    "photo": "https://shopfacil.vteximg.com.br/arquivos/ids/69169638/3670363_1.jpg?v=637400802827930000",
     "price": 13.19,
     "qty_stock": 419
   },
   {
     "id": 78,
     "name": "REFRIGERANTE ANTARCTICA GUARANÁ 2L",
+    "photo": "https://master-b2b-img.azureedge.net/product/134-refrigantarctica-guar2l-g.jpg",
     "price": 6.79,
     "qty_stock": 670
   },
   {
     "id": 79,
     "name": "ÁGUA MINERAL SEM GÁS CRYSTAL GARRAFÃO 5L",
+    "photo": "https://static.clubeextra.com.br/img/uploads/1/970/12051970.jpg",
     "price": 7.99,
     "qty_stock": 920
   },
   {
     "id": 82,
     "name": "REFRIGERANTE H2OH! DE LIMÃO 500ML",
+    "photo": "https://trimais.vteximg.com.br/arquivos/ids/1003223-1000-1000/foto_original.jpg?v=637395797052700000",
     "price": 3.09,
     "qty_stock": 670
   },
   {
     "id": 84,
     "name": "DESODORANTE AEROSOL NIVEA SENSITIVE SEM PERFUME 150ML",
+    "photo": "https://www.drogariaminasbrasil.com.br/media/product/399/desodorante-nivea-aerosol-sensitive-sem-perfume-150ml-7ae.jpg",
     "price": 11.99,
     "qty_stock": 171
   },
   {
     "id": 87,
     "name": "REFRIGERANTE H2OH! LIMÃO 1,5L",
+    "photo": "https://static.clubeextra.com.br/img/uploads/1/82/19336082.jpg",
     "price": 6.99,
     "qty_stock": 921
   },
   {
     "id": 88,
     "name": "DESODORANTE AEROSOL NIVEA BLACK&WHITE INVISIBLE MASCULINO 150ML",
+    "photo": "http://epocacosmeticos.vteximg.com.br/arquivos/ids/394525-500-500/desodorante-aerosol-nivea-masculino-invisible-for-black-e-white.jpg?v=637291284672200000",
     "price": 11.99,
     "qty_stock": 171
   },
   {
     "id": 92,
     "name": "ÁGUA MINERAL PRATA SEM GÁS 1,5L",
+    "photo": "https://s3-sa-east-1.amazonaws.com/rocky-2c5b937991b0cfc379dbf5f675740298/7d6af3ce89ea0615ed49197b48136041.jpg",
     "price": 3.09,
     "qty_stock": 172
   },
   {
     "id": 94,
     "name": "NÉCTAR MAGUARY DE MARACUJÁ 1L",
+    "photo": "https://api.tendaatacado.com.br/fotos/1614984363355_big.jpg",
     "price": 4.49,
     "qty_stock": 672
   },
   {
     "id": 95,
     "name": "REFRIGERANTE ANTARCTICA GUARANÁ ZERO 2L",
+    "photo": "https://ibassets.com.br/ib.item.image.big/b-9504c06ffe0c47aeb92051a71b9e2f45.jpeg",
     "price": 5.79,
     "qty_stock": 923
   },
   {
     "id": 96,
     "name": "ÁGUA MINERAL SEM GÁS CRYSTAL PET 1,5L",
+    "photo": "https://static.clubeextra.com.br/img/uploads/1/127/12990127.jpeg",
     "price": 2.59,
     "qty_stock": 173
   },
   {
     "id": 97,
     "name": "ÁGUA MINERAL BONAFONT SEM GÁS 500ML",
+    "photo": "https://images-americanas.b2w.io/produtos/94625041/imagens/agua-mineral-bonafont-500ml-pack-com-24/94625041_1_xlarge.jpg",
     "price": 1.75,
     "qty_stock": 423
   },
   {
     "id": 98,
     "name": "DESODORANTE AEROSOL REXONA ANTIBACTERIANO + INVISIBLE PROTECTION FEMININO 150ML",
+    "photo": "https://www.drogarianet.com.br/media/product/095/desodorante-aerosol-rexona-women-antibacterial-invisible-90g-b16.jpg",
     "price": 11.99,
     "qty_stock": 673
   }

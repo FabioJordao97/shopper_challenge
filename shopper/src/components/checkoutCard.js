@@ -1,16 +1,12 @@
-import React, { useContext } from 'react'
-import GlobalStateContext from '../globalState/globalStateContext'
+import React from 'react'
+import { CheckoutProduct, ProductsCheckout } from '../styles/checkoutStyles'
 
 const CheckoutCard = (props) => {
-
-    const {name, date} = useContext(GlobalStateContext)
     return (
-        <div>
-            <p>{props.name}</p>
-            <p>R${props.price}</p>
-            <p>Estoque: {props.stock}</p>   
-            <p>Quantidade: {props.quantity}</p>
-        </div>
+        <ProductsCheckout>
+            <CheckoutProduct>{props.quantity}x - {props.name}</CheckoutProduct>
+            <p>R${props.price}</p>            
+        </ProductsCheckout>
     )
 }
 
