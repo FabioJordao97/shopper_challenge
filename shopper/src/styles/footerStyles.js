@@ -29,7 +29,7 @@ align-items: center;
 export const CheckoutFooter = styled.div`
 background-color: #2DA77A;
 width: 100%;
-margin-top: 8vh;
+margin-top: 13vh;
 position: relative;
 bottom: 0;
 `

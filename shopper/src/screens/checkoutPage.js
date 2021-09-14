@@ -28,7 +28,7 @@ const CheckoutPage = () => {
                     <br></br> 
                     A entrega das suas compras está programada para {formatDate}! </h1>
                     </CheckoutTitle>
-                    <h2>Aqui está o comprovante das sua compras: </h2>
+                    <h2>Aqui está o seu comprovante: </h2>
                     <p>Total: R${totalPrice}</p>
                     <p>Quantidade de produtos: {totalItems}</p>
                     {checkout.map((product) => {

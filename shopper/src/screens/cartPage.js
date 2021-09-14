@@ -73,7 +73,7 @@ const CartPage = () => {
 
         :
         <CartDiv>
-          <h2>Preencha seus dados para finalizar suas compras!</h2>
+          <h2>Preencha com seus dados para finalizar o seu pedido!</h2>
           <Form>
             <CartInput
               placeholder="Qual o seu nome?"
@@ -109,8 +109,8 @@ const CartPage = () => {
           })}
           </div>
           <CartTotal>
-          <p>Valor Total: R${totalPrice}</p>
-          <p>Quantidade total: {totalItems}</p>
+          <p>Total: R${totalPrice}</p>
+          <p>Nº de produtos: {totalItems}</p>
           <CartButton onClick={() => finishPurchase()}>Finalizar compra</CartButton>
           </CartTotal>
         </CartDiv>

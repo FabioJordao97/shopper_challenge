@@ -13,7 +13,7 @@ const HomePage = () => {
     <div>
       <Header />
       <TitleDiv>
-      <h2>Compras inteligente, </h2>
+      <h2>Compras inteligentes, </h2>
       <TitleGreen>vida inteligente.</TitleGreen>
       </TitleDiv>      
       <GridContainer>        
